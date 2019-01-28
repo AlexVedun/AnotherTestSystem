@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{63A4229F-F95C-450B-9A25-AD1BC4A7164C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{63A4229F-F95C-450B-9A25-AD1BC4A7164C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATS_ASPMVC_Interface", "ATS_ASPMVC_Interface\ATS_ASPMVC_Interface.csproj", "{7604662A-280C-4952-99F0-EBB2A59F283D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATS_Blazor_Interface", "ATS_Blazor_Interface\ATS_Blazor_Interface.csproj", "{3258F941-5A1D-48B4-9638-DA3D88FAE937}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{63A4229F-F95C-450B-9A25-AD1BC4A7164C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63A4229F-F95C-450B-9A25-AD1BC4A7164C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63A4229F-F95C-450B-9A25-AD1BC4A7164C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7604662A-280C-4952-99F0-EBB2A59F283D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7604662A-280C-4952-99F0-EBB2A59F283D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7604662A-280C-4952-99F0-EBB2A59F283D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7604662A-280C-4952-99F0-EBB2A59F283D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3258F941-5A1D-48B4-9638-DA3D88FAE937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3258F941-5A1D-48B4-9638-DA3D88FAE937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3258F941-5A1D-48B4-9638-DA3D88FAE937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3258F941-5A1D-48B4-9638-DA3D88FAE937}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
