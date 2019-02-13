@@ -53,8 +53,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ATS_Model.cs" />
+    <Compile Include="Model\Answer.cs" />
+    <Compile Include="Model\ATS_Model.cs" />
     <Compile Include="Class1.cs" />
+    <Compile Include="Model\Question.cs" />
+    <Compile Include="Model\Result.cs" />
+    <Compile Include="Model\Test.cs" />
+    <Compile Include="Model\User.cs" />
+    <Compile Include="Model\UserType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

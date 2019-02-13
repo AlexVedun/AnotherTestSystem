@@ -1,4 +1,4 @@
-﻿namespace Domain
+﻿namespace Domain.Model
 {
     using System;
     using System.Data.Entity;
@@ -17,6 +17,11 @@
         {
         }
 
+        public virtual DbSet<Answer> Answers { get; set; }
+        public virtual DbSet<Question> Questions { get; set; }
+        public virtual DbSet<Test> Tests { get; set; }
+        public virtual DbSet<User> Users { get; set; }
+        public virtual DbSet<Result> Results { get; set; }
         // Добавьте DbSet для каждого типа сущности, который требуется включить в модель. Дополнительные сведения 
         // о настройке и использовании модели Code First см. в статье http://go.microsoft.com/fwlink/?LinkId=390109.
 
