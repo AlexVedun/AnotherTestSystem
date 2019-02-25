@@ -12,6 +12,11 @@ namespace Domain.Model
         public string Name { get; set; }
         public string Description { get; set; }
         public bool IsPublic { get; set; }
+        public int QuestionsToAsk { get; set; }
+        public bool IsTimeForQuestion { get; set; }
+        public bool IsTimeForTest { get; set; }
+        public int TimeForQuestion { get; set; }
+        public int TimeForTest { get; set; }
 
         public virtual ICollection<Question> Questions { get; set; }
 
